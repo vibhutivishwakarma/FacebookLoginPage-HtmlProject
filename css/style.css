@@ -1,0 +1,123 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(235, 232, 232);
+}
+
+.main{
+  padding-top: 10%;
+  padding-bottom: 20%;
+}
+
+.facebook_image{
+  height: 45%;
+  width: 45%;
+}
+
+.facebook-text{
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+.account{
+  margin-left: 15%;
+  width: 70%;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.title-side{
+  margin-top: 15%;
+}
+
+.forgot_password{
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.line{
+  margin: 20px 0;
+  border-bottom: 1px solid #d1d1cc;
+}
+
+.btn{
+  border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 45px;
+    padding: 0 16px;
+}
+
+.create-btn{
+  display: block;
+  text-align: center;
+}
+
+/* FOOTER */
+
+.list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list li{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px;
+  font-size: 15px;
+}
+
+.list li:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer-line{
+  margin: 10px 0;
+  border-bottom: 1px solid #d1d1cc;
+}
+
+.footer-text ul li{
+  font-size: 11px;
+  color: #7a7575;
+}
+
+.footer-meta-text{
+  font-size: 11px;
+  color: #7a7575;
+
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 760px) {
+  
+
+  .facebook-text{
+   display: none;
+  }
+
+  .title-side{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .account{
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  .form-control-lg{
+    font-size: 15px;
+  }
+  .footer-meta-text{
+    padding-left: 5px;
+  }
+  
+}
